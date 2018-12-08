@@ -8,7 +8,8 @@ Node-REDのユニットテストの基本的な実行方法の例です。
 
 [Node-RED公式サイト](https://nodered.org/docs/creating-nodes/first-node#testing-your-node-in-node-red)にて説明されていたことを試しました。なのでソースコードの中身自体は、先述のサイトからコピペしました。  
 masterブランチはプルしたあと、mochaとnode-red-node-test-helperがインストールされていればすぐにテストできます。
-Node-RED日本ユーザ会のサイトには、ユニットテストの項目は書かれていなかったので、一応邦訳らしきものをつける予定です。
+
+また、[Node-RED日本ユーザ会のサイト](https://nodered.jp/docs/creating-nodes/first-node)には、ユニットテストの項目は書かれていなかったので、一応邦訳らしきものをつける予定です。
 
 ## Requirement
 
@@ -23,7 +24,7 @@ Node-RED日本ユーザ会のサイトには、ユニットテストの項目は
  ユニットテストのファイルがついているブランチです。
  
  プルしたあと、フォルダの中に移動し、コマンドプロンプトなどで以下を実行します。
- <details><summary>テストの実施には前述のmocha、 node-red-node-test-helperが必要です</summary>
+ <details><summary>テストの実施には前述のmocha、node-red-node-test-helperが必要です</summary>
  <p>
     インストール方法は以下のとおりです。
      
