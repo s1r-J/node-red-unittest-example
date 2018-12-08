@@ -13,5 +13,10 @@
             "lower-case": "lower-case.js"
         }
     },
-    "dependencies": {}
+    "dependencies": {},
+    "devDependencies": {
+        "node-red": "^0.19.5",
+        "node-red-node-test-helper": "^0.1.8",
+        "should": "^13.2.3"
+    }
 }
