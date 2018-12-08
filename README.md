@@ -6,7 +6,7 @@ Node-REDのユニットテストの基本的な実行方法の例です。
 
 ## Description
 
-[Node-RED公式サイト](https://nodered.org/docs/creating-nodes/first-node#testing-your-node-in-node-red)にて説明されていたことを試しました。  
+[Node-RED公式サイト](https://nodered.org/docs/creating-nodes/first-node#testing-your-node-in-node-red)にて説明されていたことを試しました。なのでソースコードの中身自体は、先述のサイトからコピペしました。  
 masterブランチはプルしたあとにテストがすぐできます。
 Node-RED日本ユーザ会のサイトには、ユニットテストの項目は書かれていなかったので、一応邦訳らしきものをつける予定です。
 
