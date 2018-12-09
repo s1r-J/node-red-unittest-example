@@ -1,36 +1,44 @@
 node-red-unittest-example
 ====
 
-Node-REDのユニットテストの基本的な実行方法の例です。  
-[公式サイト](https://nodered.org/docs/creating-nodes/first-node#testing-your-node-in-node-red)に記載されていたことを実行して確かめられるようにしました。
+Node-REDのユニットテスト(単体テスト)の基本的な実行方法の例です。  
+[公式サイト](https://nodered.org/docs/creating-nodes/first-node#testing-your-node-in-node-red)に記載されていたことを実行して確かめられるようにしました。（公式サイトはコードが微妙に間違っていて、そのままだと実行できない。）
+
+ユニットテストの作成方法・実行方法は、[Qiita](https://qiita.com/s1r/items/11f1f1821d223bb2b61d)に記載しました。
 
 ## Description
 
-[Node-RED公式サイト](https://nodered.org/docs/creating-nodes/first-node#testing-your-node-in-node-red)にて説明されていたことを試しました。なのでソースコードの中身自体は、先述のサイトからコピペしました。  
-masterブランチはプルしたあと、mochaとnode-red-node-test-helperがインストールされていればすぐにテストできます。
+[Node-RED公式サイト](https://nodered.org/docs/creating-nodes/first-node#testing-your-node-in-node-red)にて説明されていたことを試しました。なのでソースコードの中身自体は、先述のサイトからおおよそコピペしました。
+ただし、公式サイトのコードが微妙に間違っていて、そのままだと実行できないため、そのへんを直してあります。
 
-また、[Node-RED日本ユーザ会のサイト](https://nodered.jp/docs/creating-nodes/first-node)には、ユニットテストの項目は書かれていなかったので、一応邦訳らしきものをつける予定です。
+masterブランチはプルしたあと、mochaがインストールされていればすぐにテストできます。
+
+また、[Node-RED日本ユーザ会のサイト](https://nodered.jp/docs/creating-nodes/first-node)には、ユニットテストの項目は書かれていなかったので、一応邦訳らしきものを[Qiita](https://qiita.com/s1r/items/11f1f1821d223bb2b61d)につけました。
 
 ## Requirement
 
 - npm
-- [node-red-node-test-helper](https://www.npmjs.com/package/node-red-node-test-helper)
 - [mocha](https://www.npmjs.com/package/mocha)
 
 ## Usage
+
+### ユニットテストの作成方法
+
+[Qiita](https://qiita.com/s1r/items/11f1f1821d223bb2b61d)に記載したので、そちらを参照してください。
+
+### ユニットテストの実行方法（プルしてすぐに実行したいなら）
 
 - masterブランチ
 
  ユニットテストのファイルがついているブランチです。
  
  プルしたあと、フォルダの中に移動し、コマンドプロンプトなどで以下を実行します。
- <details><summary>テストの実施には前述のmocha、node-red-node-test-helperが必要です</summary>
+ <details><summary>テストの実施には前述のmochaが必要です</summary>
  <p>
     インストール方法は以下のとおりです。
      
     ```
-     npm i mocha
-     npm i node-red-node-test-helper
+     npm i -g mocha
     ```
  </p>
  </details> 
